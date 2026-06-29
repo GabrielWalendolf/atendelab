@@ -1,0 +1,28 @@
+# AtendeLab - .gitignore
+
+# Dependências
+/vendor/
+/node_modules/
+
+# Backups do banco
+/database/backups/*.sql
+
+# Arquivos de ambiente
+.env
+.env.local
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
